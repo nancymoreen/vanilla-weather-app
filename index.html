@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <div class="weather-card">
+        <input
+          type="text"
+          class="location-input"
+          placeholder="Enter location"
+        />
+        <button type="button" class="search-btn">Search</button>
+        <div class="weather-info">
+          <h2>Lisbon</h2>
+          <p>Temperature: 30°C</p>
+          <p>Weather: Sunny</p>
+          <span class="weather-smiley">&#9728;</span>
+        </div>
+        <div class="forecast">
+          <h3>Forecast for the next five days:</h3>
+          <p>Monday: Sunny &#9728;<span>Temperature: 28°C</span></p>
+          <p>Tuesday: Cloudy &#9729;<span>Temperature: 26°C</span></p>
+          <p>Wednesday: Rainy &#9730;<span>Temperature: 22°C</span></p>
+          <p>Thursday: Thunderstorm &#9889;<span>Temperature: 24°C</span></p>
+          <p>Friday: Partly Cloudy &#127781;<span>Temperature: 27°C</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
